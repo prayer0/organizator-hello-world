@@ -1,0 +1,28 @@
+{
+  "author": "Emre Özdemir <prayer0000@protonmail.com>",
+  "bundleDependencies": false,
+  "dependencies": {
+    "organizator": "^1.0.5"
+  },
+  "deprecated": false,
+  "description": "Organizator hello world",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/prayer0/organizator-hello-world/",
+  "keywords": [
+    "javascript",
+    "framework"
+  ],
+  "license": "MIT",
+  "name": "organizator-hello-world",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prayer0/organizator-hello-world.git"
+  },
+  "scripts": {},
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/prayer0/organizator-hello-world/issues"
+  },
+  "main": "app.js"
+}

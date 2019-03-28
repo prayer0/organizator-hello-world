@@ -1,0 +1,30 @@
+require(
+	[
+		'organizator/Organizator'
+	],
+	function(
+		Organizator
+	){
+		require(
+			[
+			    'route!organizator/Resources/routes',
+			    'controller!organizator/Resources/controllers'
+			],
+			function(
+				routes,
+				controllers
+			){
+				require(
+					[
+						'../Apps/MyApp/MyApp'
+					],
+					function(
+						MyApp
+					){
+						new MyApp();
+					}
+				);
+			}
+		);
+	}
+);
